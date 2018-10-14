@@ -1,0 +1,71 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* am scapat de formatul clasic de lista */
+    background-color: hsl(0, 0%, 95%);
+   /* position:fixed; */
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;*/
+    overflow:hidden; /*enable scrolling in the sidenav has too much content */
+}
+
+li {
+    border-right: 1px solid black;
+
+    /* DE CE POATE DISPAREA DISPLAY:INLINE DE AICI???*/
+   
+    display: inline; /*remove the break from the usual list */
+    float:left; /* UNIREA EFECTIVA A ETICHETELOR !!! */
+}
+
+li a, .dropbtn { /* toate etichetele din meniu*/
+    display: inline-block; /* the WHOLE AREA IS CLICKABLE -> i can add padding margins*/
+    color: aqua;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: gray;
+}
+
+li:last-child {
+    border-right: none;
+}
+li a:hover, .dropdown:hover .dropbtn /* tot ce tine de hover din linia initiala a meniului*/
+{/* CE SEMINFICA ??? */
+    background-color: violet;
+}
+
+li.dropdown
+ /* DE CE DACA DEJA AM  li a, .buton ?????  SAU LI ??????????*/
+{
+    display:inline-block;
+}
+.dropdown_content
+{
+    display: none; /*ascunse */
+    position: absolute;
+    background-color: aliceblue;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown_content a
+{
+    display: block;   /* pt ca  e lista */
+    color: #bae448;
+    padding: 10px 10px;
+    text-align: center;
+}
+.dropdown_content a:hover {background-color:violet;}
+
+.dropdown:hover .dropdown_content {
+    display: block;
+}
+
+
+.active {
+    background-color: #4CAF50;
+    color:royalblue;
+}
