@@ -1,0 +1,75 @@
+
+body
+{
+color: #ea9999;
+font-family:Gill Sans, sans-serif;
+background: #f9cb9c url(http://1.bp.blogspot.com/-tcLGzvctWEw/UPSXNGuKpBI/AAAAAAAAAB4/TH6GY9e2ZKc/s0/girl-makeup-beads-fashion-wallpaper-1680x1050.jpg) repeat fixed top center;
+/*background-size:cover;*/
+}
+
+.inner {
+background: transparent url(bg_black_70.png) repeat scroll top left;
+background-position: left-0;
+background-color: transparent;
+/*--padding: 20px; */
+margin: 20px;
+}
+
+.clearfix
+{
+    overflow:auto; /*stabilizarea pe aceeasi portiune  poza-text*/
+}
+
+
+#tabel {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 75%;
+}
+
+#tabel td, #tabel th {
+    border: 3px solid #ddd;
+    padding: 5px; /*spatiul din jurul datelor*/
+}
+
+
+#tabel tr:nth-child(even){background-color: #f2f2f2;}/* linii de dif cul*/
+
+#tabel tr:hover {background-color: rgb(247, 99, 99);} /*culoare de selectie rand*/
+
+img
+{
+    max-width: 30%; /* perfect pt resize*/
+    height: auto;
+} 
+
+#tabel th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+}
+#dr{float:right;
+max-width:300; height:300;} /*max-width ->responsive */
+#stg{float: left;max-width:300; height:300;}
+#dr1
+{
+    /*text-align: right;*/
+    clear:right;
+}
+#stg1
+{
+    /*text-align: left;*/
+    clear:left;
+}
+@media screen and (min-width: 400px)
+{
+    img {
+        width: 200;
+        height: 200;
+    }
+    body{
+        background: #ea9999;
+    }
+}

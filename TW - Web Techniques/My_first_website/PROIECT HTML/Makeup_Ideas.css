@@ -1,0 +1,22 @@
+@media only screen and (max-width: 600px) {
+   div{
+      font-size: 30px;
+    }
+  }   
+
+
+  body
+{
+color: rgb(201, 112, 127);
+font-family:Gill Sans, sans-serif;
+background: #f9cb9c url(https://scnfamily.org/wp-content/uploads/2018/09/creation-2-1080x675.jpg) fixed top center;
+background-size:cover;
+}
+
+
+p{
+    color:yellow;
+    background-color: purple;
+    text-decoration-color: rgb(55, 55, 100);
+    
+}
