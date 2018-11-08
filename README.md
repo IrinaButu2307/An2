@@ -1,6 +1,5 @@
 # An2
 
-<h3><b>Web Techniques</b><h>
   <a href="https://github.com/IrinaButu2307/An2/tree/master/TW%20-%20Web%20Techniques">Web Techniques</a>
   <p> My first attempt to crate a web-site to incorporate most of the features I've learned until the 4th week of this course</p>  
 
