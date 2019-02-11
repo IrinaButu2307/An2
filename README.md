@@ -6,8 +6,9 @@
 ![ezgif com-video-to-gif 1](https://user-images.githubusercontent.com/32790344/48231146-ea0b6080-e3b5-11e8-9ab7-127a19c85e6a.gif)
 
 <a href="https://github.com/IrinaButu2307/An2/tree/master/GC%20-%20Computational%20Geometry">Computational Geometry</a>
+<h4></h4>
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/32790344/52601509-b41fc180-2e67-11e9-994d-bdc7fab157ba.gif)
-<h4>Graham's Scan Convex Hull applied on a ploygon reunited with an exterior point:</h4>
+<p>Graham's Scan Convex Hull applied on a ploygon reunited with an exterior point:</p>
 * the red line = upper frontier
 * the blue line = lower frontier
 * the purple line = right turn
