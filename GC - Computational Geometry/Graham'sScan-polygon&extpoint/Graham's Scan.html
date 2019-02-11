@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Graham's Scan</title>
+		<meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" type="text/css" href="Graham's Scan.css">	
+	</head>
+	
+<body>
+		
+
+
+<canvas id = "myCanvas" width = "500" height = "500" style = "border : 1px solid #000000;" > 
+Your browser does not support the canvas element.
+</canvas>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="Graham's_Scan.js"></script>
+
+<div id="Titlu"><h3> <b> Graham's Scan </b></h3></div>
+<p style="align-content: center; font-style: italic">Desenati un poligon, apasati tasta pentru vizualzare a acestuia, apoi desenati un pct exterior</p>
+<button id="drawpolygon" class="buton" onclick="deseneaza_poligon()">Aratati aria Poligonului</button>
+
+<br>	
+<button class="buton" onclick="frontiera_superioara()">Frontiera superioara</button>
+<button class="buton" onclick="frontiera_inferioara()">Frontiera inferioara</button>
+<button class="buton" onclick="functie_intermediara()">Algoritmul pe pasi</button>
+
+<div id="flip">Vezi pașii efectuați de algoritm. </div>
+<div id="panel"> <ol> </ol> </div>
+
+<div id="legenda1"> </div> <p id="p1"> Frontiera superioara </p>
+<div id="legenda2"> </div> <p id="p2"> Frontiera inferioara </p>
+<div id="legenda3"> </div> <p id="p3"> Viraj la dreapta </p>
+<div id="legenda4"> </div> <p id="p4"> Viraj la stanga </p>
+
+</body>
+</html>
