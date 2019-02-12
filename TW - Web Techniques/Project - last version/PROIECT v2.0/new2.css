@@ -1,0 +1,54 @@
+body
+{
+ margin: 10px;
+}
+.a
+{
+background: #FFCCCC;
+}
+.b
+{
+background: rgb(212, 201, 201);
+}
+
+
+p:first-child {
+    background: blueviolet;
+    color: lawngreen;
+}
+
+h3 {
+    display: block;
+    margin: 30px;
+    width: 100px; 
+    height:100px;
+    font-size:20px; 
+    font-weight:bold; 
+    background-color:aqua;
+    padding:10px;
+/*activata la hover */	
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+    animation: culoare 4s infinite;
+/*in transition se specifica transformarea */
+}
+
+
+h3:hover{                    
+         background-color: #FFCCCC;
+         width: 200px;
+        
+         transform: rotate(90deg) scale(2) translateY(-50%) translateX(50%);
+         transform: rotate(1080deg) scale(1,2);
+}
+
+header{perspective:500px;}
+@keyframes culoare{  /* for animation i new KEYFRAMES */
+0% {background-color:black; color: red;}
+25% {background-color:white;color: yellow;}
+50% {background-color:black;color: green;}
+75% {background-color:white;color: magenta;}
+100% {background-color:black;color: blue;}
+}
+
+
+

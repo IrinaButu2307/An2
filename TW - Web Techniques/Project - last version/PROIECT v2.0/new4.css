@@ -1,0 +1,30 @@
+div{
+    border:rgb(56, 197, 0);
+    border-style: dotted bold;
+    position: relative;
+    height: 700px;
+    width: 700px; 
+}
+#div1 {
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+  }
+div > img {
+    position: absolute;
+}
+#drag1{
+    position: relative;
+    left: 10%;
+}
+
+#copil
+{width: 80%;
+height: auto;
+position: absolute;
+left: 0em;}
+
+.rosu{background-color:red;}
+.galben{background-color:yellow;}
+.verde{border:green;}

@@ -1,0 +1,30 @@
+@media only screen and (max-width: 600px) {
+    div. {
+      font-size: 30px;
+    }
+  }            
+  body
+  {
+  color: #ea9999;
+  font-family:Gill Sans, sans-serif;
+  background: #f9cb9c url(http://1.bp.blogspot.com/-tcLGzvctWEw/UPSXNGuKpBI/AAAAAAAAAB4/TH6GY9e2ZKc/s0/girl-makeup-beads-fashion-wallpaper-1680x1050.jpg) repeat fixed top center;
+  }
+  
+  .inner {
+  background: transparent url(bg_black_70.png) repeat scroll top left;
+  background-position: left-0;
+  background-color: transparent;
+  /*--padding: 20px; */
+  margin: 20px;
+  }
+  .clearfix
+  {
+      overflow:auto;
+  }
+  
+dt{
+    color:yellow;
+    
+}
+
+

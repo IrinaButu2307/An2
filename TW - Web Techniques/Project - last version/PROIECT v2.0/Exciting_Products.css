@@ -1,0 +1,68 @@
+@media only screen and (max-width: 600px) {
+  div. {
+    font-size: 30px;
+  }
+} 
+
+/*
+body
+{
+color: #ea9999;
+font-family:Gill Sans, sans-serif;
+/*background: #f9cb9c url(http://1.bp.blogspot.com/-tcLGzvctWEw/UPSXNGuKpBI/AAAAAAAAAB4/TH6GY9e2ZKc/s0/girl-makeup-beads-fashion-wallpaper-1680x1050.jpg) repeat fixed top center; 
+ background: linear-gradient(to right bottom, red, orange, yellow, green, blue, indigo, violet);        
+
+}
+*/
+body
+{
+color: #ea9999;
+font-family:Gill Sans, sans-serif;
+background: #f9cb9c url(http://1.bp.blogspot.com/-tcLGzvctWEw/UPSXNGuKpBI/AAAAAAAAAB4/TH6GY9e2ZKc/s0/girl-makeup-beads-fashion-wallpaper-1680x1050.jpg) repeat fixed top center;
+/*background-size:cover;*/
+}
+
+.inner {
+background: transparent url(bg_black_70.png) repeat scroll top left;
+background-position: left-0;
+background-color: transparent;
+/*--padding: 20px; */
+margin: 20px;
+}
+
+div.gallery
+{
+    border:2px violet solid;
+    display:inline-block;
+    width: 25%;
+    height: auto;
+    margin:20px;
+    animation-name:wave;
+    animation-iteration-count: infinite;
+}
+/*
+@keyframes wave{
+  0% {background-color: rgb(237, 212, 240);}
+  25%{background-color: pink;}
+  50%{background-color:violet;}
+  75%{background-color:#d115d1;}
+  100%{background-color: rgb(110, 33, 100);}
+}
+
+*/
+div.gallery img
+{
+width: 100%; /* pt a nu se pune una peste alta*/
+}
+
+div > div
+{
+    border:2px blue solid;
+    background-color: antiquewhite;
+}
+
+div.gallery:hover
+{
+width: 50%;
+}
+  

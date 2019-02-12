@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="back.css">     
+<link rel="stylesheet" type="text/css" href="meniu_dropdown.css">    
+<link rel="stylesheet" type="text/css" href="new4.css">     
+<base href="https://www.w3schools.com/html/html_images.asp" target="_blank">
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <script >
+    window.onload=getDate;
+     function getDate(){
+        var p = document.getElementById("calendar");
+        var d = new Date;
+        p.innerHTML = d.getFullYear() +"/" + (Number(d.getMonth()) + 1) + "/" + d.getDay();
+    }
+    </script>   
+    
+    
+</head>
+<body id="bunic">
+
+
+        <ul>
+                <li><a href="Istoria.html">Istorie</a></li>
+                <li><a href="Home.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Produse</a>
+                    <div class="dropdown_content">
+                        <a href="Produse_de_Baza.html">Produse de Baza</a>
+                        <a href="Exciting_Products.html">Produse "Altel"</a>
+                    </div>    
+                </li>
+                <li><a href="Makeup_Ideas.html">Make-up Looks</a></li>
+                <li><a href="Inventii.html">Inventii de ultima ora</a></li>
+                <li><a href="Subscribe.html">Aboneaza-te</a></li>
+                <li><a href="Persoane_Importante.html">Personalitati Remarcante</a></li>
+                <li><a href="Bine_de_stiut.html"class="active">Bine de stiut</a></li>
+        </ul>
+<br><br>
+<br><br>
+<br>
+    <div id="parinte">
+        <img src="img_girl.jpg" id="copil">
+    </div>
+
+<br><br><br>
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<br>
+<img id="drag1" src="pic_trulli.jpg" draggable="true" ondragstart="drag(event)" width="400" height="200">
+
+<div id="calendar">
+
+</div>
+</body>
+</html>

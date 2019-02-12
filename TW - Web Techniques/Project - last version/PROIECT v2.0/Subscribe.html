@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="meniu_dropdown.css">     
+    <link rel="stylesheet" type="text/css" href="back.css">     
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<style>
+.flex-container {
+  display: flex;
+  align-items: stretch;
+  background-color: #f1f1f1;
+  flex-direction: row;
+  
+}
+.flex-container > div {
+  background-color:rgb(252, 215, 50);
+  color: white;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+</style>
+<script src="new3.js"></script>
+</head>
+<body>
+
+    <ul>
+        <li><a href="Istoria.html">Istorie</a></li>
+        <li><a href="Home.html">Home</a></li>
+        <li class="dropdown">
+            <a href="#" class="dropbtn">Produse</a>
+            <div class="dropdown_content">
+                <a href="Produse_de_Baza.html">Produse de Baza</a>
+                <a href="Exciting_Products.html">Produse "Altel"</a>
+            </div>    
+        </li>
+        <li><a href="Makeup_Ideas.html">Make-up Looks</a></li>
+        <li><a href="Inventii.html">Inventii de ultima ora</a></li>
+        <li><a href="Subscribe.html" class="active">Aboneaza-te</a></li>
+        <li><a href="Persoane_Importante.html">Personalitati Remarcante</a></li>
+        <li><a href="Bine_de_stiut.html">Bine de stiut</a></li>
+</ul>
+
+<br>
+<br><br>
+<div class="flex-container">
+  <div style="flex-grow: 1">Am fost curios</div>
+  <div style="flex-grow: 1">Am cautat</div>
+  <div style="flex-grow: 8">M-am informat</div>
+  <div style="flex-grow: 1">Devin si mai curios</div>
+  <div style="flex-grow: 1">Doresc sa fiu mereu la curent</div>
+  <div style="flex-grow: 8">M-am abonat!</div>
+</div>
+
+<form id="form">
+   Nume:<br> <input type="text" name="nume"><br> 
+   Varsta:<br> <input type="number" min="10" max="90" name="varsta" size="50"><br><br> 
+   E-mail:<br> <input type="email" name="mail"><br> 
+   Accept Termenii si Conditiile <br> <input type="checkbox">
+   <br>
+
+   <input type="submit" value="Subscribe">
+  <input type="reset" value="Reset"> </form>
+
+<textarea id="txt"></textarea>
+<p id="info"></p>
+<p id="count"></p>
+
+</body>
+</html>
