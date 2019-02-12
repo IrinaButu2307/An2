@@ -7,8 +7,11 @@
 
 <a href="https://github.com/IrinaButu2307/An2/tree/master/GC%20-%20Computational%20Geometry">Computational Geometry</a>
 <h4></h4>
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/32790344/52601509-b41fc180-2e67-11e9-994d-bdc7fab157ba.gif)
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/32790344/52634537-26c48780-2ed0-11e9-92ff-f461fdc37795.gif)
+
+
 <p>Graham's Scan Convex Hull applied on a ploygon reunited with an exterior point:</p>
+
 * the red line = upper frontier
 * the blue line = lower frontier
 * the purple line = right turn
@@ -19,6 +22,7 @@
 <a href="https://github.com/IrinaButu2307/An2/tree/master/SO%20-%20Operating%20Systems"> Operating Systems</a>
 <h4> Process Scheduling Simulator</h4>
 The main goal was to empathise the pros and cons of using:
+
 1. FCFS (First Come First Served)
 2. SJF (Shortest Job First) - preemptive & non-preemptive
 3. Priority - preemptive & non-preemptive 
