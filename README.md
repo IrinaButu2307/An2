@@ -7,7 +7,6 @@
 
 <a href="https://github.com/IrinaButu2307/An2/tree/master/GC%20-%20Computational%20Geometry">Computational Geometry</a>
 <h4></h4>
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/32790344/52634537-26c48780-2ed0-11e9-92ff-f461fdc37795.gif)
 
 ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/32790344/52635048-7b1c3700-2ed1-11e9-988a-dabd6e1004d8.gif)
 
